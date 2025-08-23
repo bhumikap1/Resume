@@ -1,0 +1,66 @@
+/* Skills.css */
+.skills-container {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #007bff;
+  letter-spacing: 1px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.skill-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.skill-category {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #0056b3;
+  border-left: 4px solid #007bff;
+  padding-left: 10px;
+}
+
+.skill-item ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skill-item ul li {
+  font-size: 1rem;
+  margin: 6px 0;
+  padding-left: 18px;
+  position: relative;
+}
+
+.skill-item ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-size: 0.9rem;
+}
