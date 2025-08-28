@@ -3,6 +3,13 @@ import "../styles/Projects.css";
 export default function Projects() {
   const projectList = [
     {
+      title: "Portfolio Website using React ",
+      duration: "July, 2025 - Aug, 2025",
+      description:
+        "Build my resume website showcasing react and javascript skills.",
+      link: "https://bhumikap1.github.io/Resume/",
+    },
+    {
       title: "Text Summarization using Hugging Face and LangChain Framework (GenAI)",
       duration: "January 2023 - March 2023",
       description:

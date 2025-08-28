@@ -8,35 +8,63 @@
 /* App wrapper */
 .App {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #111827; /* dark gray text */
-  background-color: #f9fafb; /* light background */
+  color: #f9fafb; /* light text */
+  background-color: #000; /* black background */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* Pushes page content below navbar */
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85); /* black with slight transparency */
+  backdrop-filter: blur(6px); /* adds a frosted glass effect */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  z-index: 1000; /* stay above other content */
+}
+
+/* Navbar links */
+.navbar a {
+  color: #f9fafb;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #60a5fa; /* bright blue hover */
+}
+
+/* Main content */
 .App main {
   flex: 1;
   padding: 30px;
+  margin-top: 20px; /* ensures content not hidden under sticky navbar */
 }
 
-/* General headings */
+/* Headings */
 h1, h2, h3 {
-  color: #1f2937; /* darker gray */
+  color: #e5e7eb; /* light gray */
   margin-bottom: 15px;
 }
 
 /* Paragraph text */
 p {
-  color: #374151;
+  color: #d1d5db; /* softer gray */
   line-height: 1.6;
   margin-bottom: 15px;
 }
 
 /* Links */
 a {
-  color: #2563eb;
+  color: #60a5fa;
   text-decoration: none;
 }
 
@@ -44,11 +72,66 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Footer (if you add later) */
+/* Footer */
 footer {
-  background: #111827;
+  background: #111;
   color: #f9fafb;
   text-align: center;
   padding: 15px 0;
   margin-top: auto;
+}
+
+/* =============================
+   RESPONSIVENESS
+   ============================= */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .App main {
+    padding: 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar a {
+    margin: 10px 0 0 0;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .App main {
+    padding: 15px;
+  }
+
+  .navbar {
+    padding: 10px 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
 }
