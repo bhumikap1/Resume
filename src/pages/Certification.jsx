@@ -5,6 +5,12 @@ export default function Certifications() {
             <h1 className="certifications-title">Certifications</h1>
             <div className="certifications-list">
                 <div className="certification-item">
+                    <h2 className="certification-name">Exam Prep: AWS Certified solutions architect - Associate</h2>
+                    <p className="certification-issuer">Coursera</p>
+                    <p className="certification-date">Issued: March 23</p>
+                    <a className="certification-link" href="https://www.coursera.org/account/accomplishments/verify/J6N6DCD4D3J8" target="_blank" rel="noopener noreferrer">View Credential</a>
+                </div>
+                <div className="certification-item">
                     <h2 className="certification-name">AWS Certified solutions architect: Associate</h2>
                     <p className="certification-issuer">Amazon Web Services (AWS)</p>
                     <p className="certification-date">Issued: April 24</p>
@@ -16,7 +22,7 @@ export default function Certifications() {
                     <h2 className="certification-name">Cloud Orerations On AWS</h2>
                     <p className="certification-issuer">Coursera</p>
                     <p className="certification-date">Issued: Jan 25,2023</p>
-                    <p className='certification-expiry'>Expires: Jan25,2026</p>
+                    <a className="certification-link" href="https://www.coursera.org/account/accomplishments/verify/UE6CHX7BU8CJ" target="_blank" rel="noopener noreferrer">View Credential</a>
                 </div>
                 <div className="certification-item">
                     <h2 className="certification-name">Amazon S3 Basics</h2>
