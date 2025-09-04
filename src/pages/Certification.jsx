@@ -7,7 +7,7 @@ export default function Certifications() {
                 <div className="certification-item">
                     <h2 className="certification-name">Exam Prep: AWS Certified solutions architect - Associate</h2>
                     <p className="certification-issuer">Coursera</p>
-                    <p className="certification-date">Issued: March 23</p>
+                    <p className="certification-date">Issued: March 6,2023</p>
                     <a className="certification-link" href="https://www.coursera.org/account/accomplishments/verify/J6N6DCD4D3J8" target="_blank" rel="noopener noreferrer">View Credential</a>
                 </div>
                 <div className="certification-item">
