@@ -27,7 +27,7 @@ export default function Education() {
         <h2 className="degree">High School</h2>
         <h3 className="institution">S.T Theresa sr. sec. School</h3>
         <p className="duration">2019 - 2020</p>
-        <p className="percentage">Percentage = 84.68%</p>
+        <p className="percentage">Percentage = 85.00%</p>
         <p className="details">
           Focused on Science and Mathematics.
         </p>
