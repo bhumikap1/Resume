@@ -14,7 +14,7 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 50px;
-  color: #3b82f6; /* blue accent */
+  color: #ecf1fa; /* blue accent */
   letter-spacing: 1px;
   border-bottom: 3px solid #3b82f6;
   display: inline-block;
@@ -47,7 +47,7 @@
 .certification-name {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #60a5fa; /* light blue */
+  color: #3b82f6; /* light blue */
   margin-bottom: 12px;
 }
 
