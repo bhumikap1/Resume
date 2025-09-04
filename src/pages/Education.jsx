@@ -8,7 +8,7 @@ export default function Education() {
         <h2 className="degree">Bachelor of Technology in Computer Science</h2>
         <h3 className="institution">Graphic Era Deemed University</h3>
         <p className="duration">2021 - 2025</p>
-        <p className="cgpa">Overall = 8.49/10</p>
+        <p className="cgpa">Overall = 8.47/10</p>
         <p className="details">
           Relevant Coursework: Data Structures, Algorithms, Database Management,
           Web Development, Software Engineering, Cloud Computing.
