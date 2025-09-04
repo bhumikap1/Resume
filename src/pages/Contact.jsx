@@ -7,7 +7,7 @@ export default function Contact() {
             <p className="contact-subtitle">I'd love to hear from you! Feel free to reach out.</p>
 
             <div className="contact-details">
-                <p><strong>Email:</strong> <a href="mailto:bhumika@example.com">bhumika@example.com</a></p>
+                <p><strong>Email:</strong> <a href="mailto:bhumikap754@gmail.com">bhumikap754@gmail.com</a></p>
                 <p><strong>Phone:</strong> +91 8433035889</p>
                 <p><strong>Location:</strong> Haldwani, Uttarakhand, India</p>
             </div>
