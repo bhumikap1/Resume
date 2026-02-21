@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Resume.css";
 
 export default function Resume() {
-  const resumeUrl = `${process.env.PUBLIC_URL}/resume.pdf`;
+  const resumeUrl = `${process.env.PUBLIC_URL}/BhumikaPawar_resume.pdf`;
 
   return (
     <section className="resume-container">
